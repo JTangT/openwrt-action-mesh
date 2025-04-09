@@ -18,3 +18,7 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+
+cd package
+git clone https://github.com/torguardvpn/luci-app-easymesh.git
+cd ..
