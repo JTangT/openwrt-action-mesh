@@ -18,6 +18,6 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git modem https://github.com/FUjr/modem_feeds.git;main' >> feeds.conf.default
 
-mkdir -p package/feeds/modem
-git clone https://github.com/mdsdtech/5G-Modem-Packages
-mv 5G-Modem-Packages/quectel_cm_5G package/feeds/modem
+#mkdir -p package/feeds/modem
+#git clone https://github.com/mdsdtech/5G-Modem-Packages
+#mv 5G-Modem-Packages/quectel_cm_5G package/feeds/modem
