@@ -22,3 +22,5 @@
 #cd package
 #git clone https://github.com/torguardvpn/luci-app-easymesh.git
 #cd ..
+
+echo "CONFIG_PACKAGE_openssh-sftp-server=y" >> .config
