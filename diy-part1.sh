@@ -17,9 +17,11 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git modem https://github.com/FUjr/modem_feeds.git;main' >> feeds.conf.default
+
+ls ../
 ls
 
-cp -r airpi/* .
+cp -r ../airpi/* .
 
 #mkdir -p package/feeds/modem
 #git clone https://github.com/mdsdtech/5G-Modem-Packages
