@@ -18,10 +18,9 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git modem https://github.com/FUjr/modem_feeds.git;main' >> feeds.conf.default
 
-ls ../
-ls
+git clone https://github.com/JTangT/openwrt-action-mesh
 
-cp -r ../airpi/* .
+cp -r openwrt-action-mesh/airpi/* .
 
 #mkdir -p package/feeds/modem
 #git clone https://github.com/mdsdtech/5G-Modem-Packages
