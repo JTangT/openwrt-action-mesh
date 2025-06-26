@@ -16,11 +16,11 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git modem https://github.com/FUjr/modem_feeds.git;main' >> feeds.conf.default
+#echo 'src-git modem https://github.com/FUjr/modem_feeds.git;main' >> feeds.conf.default
 
-git clone https://github.com/JTangT/openwrt-action-mesh
+#git clone https://github.com/JTangT/openwrt-action-mesh
 
-cp -r openwrt-action-mesh/airpi/* .
+#cp -r openwrt-action-mesh/airpi/* .
 
 #mkdir -p package/feeds/modem
 #git clone https://github.com/mdsdtech/5G-Modem-Packages
