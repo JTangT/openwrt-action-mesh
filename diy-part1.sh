@@ -20,7 +20,10 @@
 
 #git clone https://github.com/JTangT/openwrt-action-mesh
 
+#chmod +x openwrt-action-mesh/airpi/package/feeds/luci/luci-app-Airpifanctrl/root/etc/init.d/*
+#chmod +x openwrt-action-mesh/airpi/package/feeds/luci/luci-app-Airpifanctrl/root/usr/bin/*
 #cp -r openwrt-action-mesh/airpi/* .
+
 
 #mkdir -p package/feeds/modem
 #git clone https://github.com/mdsdtech/5G-Modem-Packages
